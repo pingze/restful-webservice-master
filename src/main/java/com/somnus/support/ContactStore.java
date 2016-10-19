@@ -27,7 +27,8 @@ public class ContactStore {
 	private static void initOneContact() {
 		Address[] addrs = {
 			new Address("Shanghai", "Long Hua Street"),
-			new Address("Shanghai", "Dong Quan Street")
+			new Address("Shanghai", "Dong Quan Street"),
+			new Address("Shanghai", "Centro Avenue")
 		};
 		Contact cHuang = new Contact("1", "Somnus", Arrays.asList(addrs));
 		store.put(cHuang.getId(), cHuang);
